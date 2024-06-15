@@ -1,8 +1,28 @@
-# React + Vite
+# Laboratory Activity #4 - React Routing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Create a Single Page Application (SPA) with Routing Using React
+Objective: Develop a Single Page Application using React with the following components:
 
-Currently, two official plugins are available:
+Login
+Home Page
+About Us
+Contact Us
+Instructions:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Login Component:
+
+Create a login form where users can enter their username and password.
+Validate the user credentials against an array of predefined usernames and passwords.
+Home Page Component:
+
+Design a simple home page that users see after logging in successfully.
+About Us Component:
+
+Include information about your application.
+Contact Us Component:
+
+Provide contact information or a form to get in touch.
+Important Requirements:
+
+Use Routing: Use React Router library to navigate between components.
+Single Page Experience: Ensure all components are rendered on a single page, and navigation between them should be handled using React Router.
