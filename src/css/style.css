@@ -1,0 +1,63 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    background-color: #242424;
+}
+
+.main {
+    display: block;
+
+    background-color: yellow;
+    margin: auto;
+    width: 50%;
+
+    padding: 14px 16px;
+}
+
+.content {
+    background-color: #f9f9f9;
+    color: black;
+    padding: 10px 20px;
+}
+
+.nav {
+    background-color: #1a1a1a;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    padding: 0;
+}
+
+.nav li {
+    color: #f9f9f9;
+    font-weight: bold;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+
+.login-form {
+    padding: 1em;
+    background-color: yellow;
+    width: 15%;
+
+}
+
+/*
+.active {
+    background-color: #535bf2;
+}
+*/
+
+.form-label {
+    color: black;
+}
+
+.nav > ul > li:not(.active):hover {
+    background-color: #888888;
+}
